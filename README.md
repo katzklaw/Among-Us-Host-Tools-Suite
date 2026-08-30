@@ -20,7 +20,7 @@ My plan to solve that was to split the tool features into different mini mods th
 
 **The add ons**
 
-Ender.  Lets you end a meeting or a game prematurely. Troll mashes the report button 10 seconds into R1, then says nothing? /endmeeting or /em.   It's a rarer case, but sometimes you just need or want a game to end immediately for whatever reason. /endgame or /em ends the game as an "impostor disconnect".  ALSO integrates with the moderator list from Banlist and allows anyone whom you have designated as a moderator to end meetings using the same /endmeeting or /em commands. 
+Ender.  Lets you end a meeting or a game prematurely. Troll mashes the report button 10 seconds into R1, then says nothing? /endmeeting or /em.   It's a rarer case, but sometimes you just need or want a game to end immediately for whatever reason. /endgame or /eg ends the game as an "impostor disconnect".  ALSO integrates with the moderator list from Banlist and allows anyone whom you have designated as a moderator to end meetings using the same /endmeeting or /em commands. 
 
 TaskKillTracker. Shows you what your task completion status is in number/number format appended to the end of your name. Shows what EVERYONE's task completion status and/or number of kills made on the vote screen after you are dead. Adds a "dark mode" to chat. Allows you to adjust the color of chat to any chosen hex code. Each one of these features can be individually toggled on or off. 
 

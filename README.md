@@ -18,6 +18,8 @@ My plan to solve that was to split the tool features into different mini mods th
 
 [Banlist](https://github.com/katzklaw/banlist). Just what it says on the box. Lets you maintain a friend code based blacklist/whitelist. Blacklisted people are auto-banned when they attempt to join. Auto kicks or bans people who say start words (configurable list) or disallowed words (configurable list), or who are under a certain (configurable) level. Auto kicks/bans people with invalid friend codes or people who are on your in-game block list. Auto kicks/bans people who join with names that are on a (configurable) disallowed list, regardless what their friend code is. Includes a moderator system so you can allow specific friends to help maintain peace by also kicking/banning troublemakers. You can append a reason when using the /kick or /ban chat options and that reason gets added to the ban list so you can remind yourself WHY you banned that guy.
 
+**update 1.0.2** changes the wording of the kick/ban message that you as the host sees, so that you can see what exactly that person is getting punished for, and adds the option of showing a summary after the game completes showing who the imps were and how many kills they made, and how many tasks overall were completed.
+
 **The add ons**
 
 Ender.  Lets you end a meeting or a game prematurely. Troll mashes the report button 10 seconds into R1, then says nothing? /endmeeting or /em.   It's a rarer case, but sometimes you just need or want a game to end immediately for whatever reason. /endgame or /em ends the game as an "impostor disconnect".  ALSO integrates with the moderator list from Banlist and allows anyone whom you have designated as a moderator to end meetings using the same /endmeeting or /em commands. 
@@ -26,7 +28,7 @@ TaskKillTracker. Shows you what your task completion status is in number/number 
 
 [GameLogger](https://github.com/katzklaw/TwixLogger). Forked from [Twix](https://github.com/whichtwix)'s Game Logger and updated for the current update. Changes from Twix's version: vote logging is on by default, can be toggled off. Votes are logged in the order they are cast, not in ID order as previously. In addition to how many kills each imp made at the end of the log, there is also a list of how many tasks each player finished.
 
-RpcSniffer.  A rudimentary anticheat. Alerts you if someone triggers a *possibly* invalid RPC. ***TAKE THE INFO FROM THIS LOG WITH A GRAIN OF SALT.*** It will not capture everything, because some cheat actions just do not generate RPC calls, and it can potentially give a false positive.  ***BUT***... having that warning is better than nothing at all and can possibly alert you to someone doing fishy shit in your game. 
+[RpcSniffer](https://github.com/katzklaw/RPC-sniffer).  A rudimentary anticheat. Alerts you if someone triggers a *possibly* invalid RPC. ***TAKE THE INFO FROM THIS LOG WITH A GRAIN OF SALT.*** It will not capture everything, because some cheat actions just do not generate RPC calls, and it can potentially give a false positive.  ***BUT***... having that warning is better than nothing at all and can possibly alert you to someone doing fishy shit in your game. 
 
 
 # 
